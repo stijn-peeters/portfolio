@@ -13,6 +13,7 @@ currently there is still a need for more pages and a display of my current skill
 - readme page bg
 - display languages/skills
 - english checkup
+- high res media queries
 
 https://coolors.co/001021-034748-1481ba-11b5e4-0caadc
 palette
