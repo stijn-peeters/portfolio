@@ -1,6 +1,7 @@
 @import "reset";
 @import "font/roboto";
 @import "landing";
+@import "mobile";
 
 @media (min-width: 1023px) {
   @import "about-me";
@@ -15,5 +16,5 @@ body {
   font-family: Roboto, sans-serif;
   text-align: center;
   color: white;
-  background-color: #2b2b2b;
+  background-color: #001021;
 }

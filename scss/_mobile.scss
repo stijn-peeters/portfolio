@@ -1,1 +1,49 @@
+// about me section
+.about-me {
+  display: block;
+}
 
+.content {
+  padding: 2em 3em 0 3em;
+}
+
+.container i {
+  font-size: 2em;
+}
+
+.container {
+  padding: 1em 3em;
+}
+
+.con-dev {
+  background: rgba(#1481ba, 0.7);
+}
+
+// work
+.work {
+  padding: 0 2em;
+}
+.left {
+  background: rgba(#034748, 0.21);
+}
+.work h3 {
+  font-style: italic;
+}
+
+// footer
+footer i,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2em;
+  padding: 1em 0;
+  font-size: 0.7em;
+  font-style: italic;
+  background: rgba(#564946, 0.8);
+}

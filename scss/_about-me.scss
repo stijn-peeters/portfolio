@@ -16,6 +16,7 @@
 
 .content {
   grid-column: 2 / span 3;
+  padding: 0;
 }
 
 h2 {
@@ -45,7 +46,7 @@ h2 {
 
 .con-dev {
   grid-column: 3 / span 1;
-  background: rgba(#003cff, 0.7);
+  background: rgba(#1481ba, 0.7);
 }
 .con-tin {
   grid-column: 4 / span 1;
@@ -54,8 +55,11 @@ h2 {
 // info under 3 items
 .work {
   grid-row: 3;
+  padding: 0 1em;
 }
+
 .left {
+  background: none;
   grid-column: 2 / span 2;
 }
 .right {
@@ -66,10 +70,13 @@ h3,
 .work {
   font-weight: 100;
 }
+.work h3 {
+  font-style: italic;
+}
 .work p {
   padding: 0 15em;
 }
 
 .work a {
-  background: rgba(#003cff, 0.7);
+  background: rgba(#0caadc, 0.7);
 }
