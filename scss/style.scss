@@ -1,15 +1,12 @@
-@import "font/_font.scss";
 @import "reset";
+@import "font/_font.scss";
+@import "landing";
+@import "footer";
 
 body {
   font-family: Roboto, sans-serif;
   text-align: center;
 }
-a,
-i {
-  color: white;
-}
-.landing {
-  height: 100vh;
-  background-image: url(/img/landing.jpg);
+.content {
+  padding: 15em 0;
 }

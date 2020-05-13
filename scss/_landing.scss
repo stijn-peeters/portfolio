@@ -1,0 +1,16 @@
+h1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+.landing p {
+  font-size: 1.2em;
+}
+.landing i {
+  font-size: 2em;
+}
+
+.landing {
+  height: 100vh;
+  background-image: url(/img/landing.jpg);
+  background-size: cover;
+}
