@@ -1,10 +1,16 @@
 @import "reset";
-@import "font/_font.scss";
+@import "font/roboto";
 @import "landing";
+@import "about-me";
 @import "footer";
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Roboto, sans-serif;
   text-align: center;
   color: white;
+  background-color: #2b2b2b;
 }

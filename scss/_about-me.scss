@@ -1,0 +1,19 @@
+.about-me {
+  height: 100vh;
+  // background-image: url(../img/landing.jpg);
+  // background-size: cover;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  padding-top: 2em;
+}
+
+.content {
+  width: 65%;
+}
+
+.content h2,
+.content p {
+  font-weight: 100;
+  padding: 2em 10em 0 10em;
+}

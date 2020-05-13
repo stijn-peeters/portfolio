@@ -18,12 +18,17 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  // paralax
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // .content {
 //   background: rgba(#313131, 0.2);
 // }
 
-.content p {
+.intro p {
   background: rgba(#003cff, 0.7);
 }
