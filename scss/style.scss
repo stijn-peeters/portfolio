@@ -1,8 +1,11 @@
 @import "reset";
 @import "font/roboto";
 @import "landing";
-@import "about-me";
-@import "footer";
+
+@media (min-width: 1023px) {
+  @import "about-me";
+  @import "footer";
+}
 
 html {
   scroll-behavior: smooth;

@@ -3,10 +3,15 @@
   // background-image: url(../img/landing.jpg);
   // background-size: cover;
   display: grid;
-  grid-template-columns: 20% auto auto auto 20%;
+  grid-template-columns: 10% auto auto auto 10%;
   // justify-content: center;
   // align-items: center;
   padding-top: 2em;
+}
+@media (min-width: 1400px) {
+  .about-me {
+    grid-template-columns: 20% auto auto auto 20%;
+  }
 }
 
 .content {
@@ -63,4 +68,8 @@ h3,
 }
 .work p {
   padding: 0 15em;
+}
+
+.work a {
+  background: rgba(#003cff, 0.7);
 }
