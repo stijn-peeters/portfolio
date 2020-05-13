@@ -2,18 +2,65 @@
   height: 100vh;
   // background-image: url(../img/landing.jpg);
   // background-size: cover;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 20% auto auto auto 20%;
+  // justify-content: center;
   // align-items: center;
   padding-top: 2em;
 }
 
 .content {
-  width: 65%;
+  grid-column: 2 / span 3;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 .content h2,
 .content p {
   font-weight: 100;
-  padding: 2em 10em 0 10em;
+  padding: 2em 5em 0 5em;
+}
+
+// nice content
+.container {
+  grid-row: 2;
+  padding: 2em;
+  height: 12em;
+}
+
+.container i {
+  font-size: 5em;
+}
+
+.con-tec {
+  grid-column: 2 / span 1;
+}
+
+.con-dev {
+  grid-column: 3 / span 1;
+  background: rgba(#003cff, 0.7);
+}
+.con-tin {
+  grid-column: 4 / span 1;
+}
+
+// info under 3 items
+.work {
+  grid-row: 3;
+}
+.left {
+  grid-column: 2 / span 2;
+}
+.right {
+  grid-column: 3 / span 2;
+}
+h3,
+.container,
+.work {
+  font-weight: 100;
+}
+.work p {
+  padding: 0 15em;
 }
