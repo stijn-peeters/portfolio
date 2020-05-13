@@ -7,10 +7,23 @@ h1 {
 }
 .landing i {
   font-size: 2em;
+  padding-top: 2em;
+  color: white;
 }
 
 .landing {
   height: 100vh;
   background-image: url(/img/landing.jpg);
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .content {
+//   background: rgba(#313131, 0.2);
+// }
+
+.content p {
+  background: rgba(#003cff, 0.7);
 }
