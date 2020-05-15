@@ -71,8 +71,12 @@ h3,
 .work {
   font-weight: 100;
 }
+.card h3 {
+  padding: 1em;
+}
 .work h3 {
   font-style: italic;
+  padding-bottom: 0.2em;
 }
 .work p {
   padding: 0 15em;
