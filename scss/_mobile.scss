@@ -4,7 +4,7 @@
 }
 
 .content {
-  padding: 2em 3em 0 3em;
+  padding: 2em 3em 1em 3em;
 }
 
 .container i {
@@ -17,11 +17,13 @@
 
 .con-dev {
   background: rgba(#1481ba, 0.7);
+  -webkit-box-shadow: inset 0px 1px 49px 3px rgba(3, 71, 72, 0.534);
+  box-shadow: inset 0px 1px 49px 3px rgba(3, 71, 72, 0.534);
 }
 
 // work
 .work {
-  padding: 0 2em;
+  padding: 1em 2em;
 }
 .left {
   background: rgba(#034748, 0.21);
